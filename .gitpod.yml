@@ -1,0 +1,14 @@
+image: gitpod/workspace-full
+
+vscode:
+  extensions:
+    - ritwickdey.LiveServer
+
+# Ports to expose on workspace startup
+ports:
+  - port: 5500
+    onOpen: open-preview
+    name: Website
+    description: Website Preview
+    visibility: private
+    protocol: http
